@@ -19,7 +19,7 @@ To set up and run this project,
 The major challenge was the OpenAI API integration. The API received a major update during the development phase, which included a complete rewrite of the library. This update introduced changes in the way the API is instantiated and utilized, differing substantially from the previous version.
 
 
-The error message indicates that your code is using an older method to access the OpenAI API that is no longer supported in the version of the openai library you have installed. This is a common issue when APIs are updated to new versions, leading to changes in how functions and methods should be called.
+The error message indicated that my code was using an older method to access the OpenAI API that is no longer supported in the version of the openai library you have installed. This is a common issue when APIs are updated to new versions, leading to changes in how functions and methods should be called.
 
 
 ## Examples of Data Collected, Analysis Performed, and Messages Generated
