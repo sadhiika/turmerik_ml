@@ -58,7 +58,7 @@ def generate_message(client, polarity):
 
     response = client.chat.completions.create(
     model='gpt-3.5-turbo',  # Your specified model
-    prompt=f"Compose a professional message aimed at the willingness of the user for clinical trial recruitment: {context}",
+    messages=[{"role": "user", "content": f"Compose a professional message aimed at the willingness of the user for clinical trial recruitment: {context}"}],
     max_tokens=150,
     temperature=0.7
 )
