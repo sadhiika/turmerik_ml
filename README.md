@@ -24,6 +24,7 @@ The error message indicates that your code is using an older method to access th
 
 ## Examples of Data Collected, Analysis Performed, and Messages Generated
 *Please find the OUTPUT.md file in the repository
+It has the post content and title, comments and the sentiment analysis.
 
 
 ## Ethical Considerations
